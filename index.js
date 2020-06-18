@@ -5,7 +5,7 @@ var server = http.createServer(app);
 var haha = "f";
 
 app.get('/', function(req, res){
-    res.send('I love MinGyu on EC2');
+    res.send('I love SoonGil on EC2');
 });
 
 app.get('/start', function(req, res){
