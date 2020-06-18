@@ -2,6 +2,7 @@ var express = require('express');
 var http = require('http');
 const app = express();
 var server = http.createServer(app);
+var haha = "e";
 
 app.get('/', function(req, res){
     res.send('I love MinGyu on EC2');
